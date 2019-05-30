@@ -23,7 +23,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "testbuild/function.js",
-        "code": "exports.handler = function (request, response) {\n \n    response.send({ \"message\": \"Successfully executed\" });\n}",
+        "code": "exports.handler = function (request, response) {\n //\n    response.send({ \"message\": \"Successfully executed\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "timeout": 60,
@@ -108,7 +108,7 @@
     "projectRegion": "us-east1",
     "platform": "GCP",
     "platformRegions": {},
-    "lastSave": 1559192924357
+    "lastSave": 1559193431017
   },
   "VCS_STATE": {
     "provider": "GitHub",
